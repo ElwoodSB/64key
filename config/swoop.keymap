@@ -88,7 +88,7 @@
 &lt 2 TAB              &kp Q   &kp W        &kp E      &kp R             &kp T         &kp Y          &kp U      &kp I      &kp O          &kp P     &lt 2 BACKSLASH
 &mt LEFT_CONTROL CAPS  &kp A   &kp S        &kp D      &kp F             &kp G         &kp H          &kp J      &kp K      &kp L          &kp SEMI  &kp SQT
 &kp LSHFT              &kp Z   &kp X        &kp C      &kp V             &kp B         &kp N          &kp M      &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
-                               &kp MINUS    &kp EQUAL  &kp LCTRL         &lt 1 SPACE   &kp BACKSPACE  &kp ENTER  &kp LBKT   &kp RBKT
+                               &kp MINUS    &kp EQUAL  &mt LCTRL DELETE  &lt 1 SPACE   &kp BACKSPACE  &kp ENTER  &kp LBKT   &kp RBKT
                                &kp PAGE_UP  &kp LALT   &mt LEFT_WIN DEL  &kp LEFT_ALT  &kp LEFT       &kp RIGHT  &kp DOWN   &kp PAGE_DOWN
             >;
         };

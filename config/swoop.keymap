@@ -31,6 +31,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
         modcp: mod_copy {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_COPY";
@@ -50,6 +51,7 @@
             #binding-cells = <0>;
             bindings = <&kp N1 &kp N3 &kp N5 &kp N1>;
         };
+
         macro_email_q: macro_email_q {
             // 2894512440@qq.com
 
@@ -58,6 +60,7 @@
             #binding-cells = <0>;
             bindings = <&kp N2 &kp N8 &kp N9 &kp N4 &kp N5 &kp N1 &kp N2 &kp N4 &kp N4 &kp N0 &kp AT &kp Q &kp Q &kp DOT &kp C &kp O &kp M>;
         };
+
         macro_email_g: macro_email_g {
             // 135115
 
@@ -84,12 +87,12 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESCAPE             &kp N1  &kp N2       &kp N3     &kp N4            &kp N5        &kp N6         &kp N7     &kp N8     &kp N9         &kp N0    &kp GRAVE
-&lt 2 TAB              &kp Q   &kp W        &kp E      &kp R             &kp T         &kp Y          &kp U      &kp I      &kp O          &kp P     &lt 2 BACKSLASH
-&mt LEFT_CONTROL CAPS  &kp A   &kp S        &kp D      &kp F             &kp G         &kp H          &kp J      &kp K      &kp L          &kp SEMI  &kp SQT
-&kp LSHFT              &kp Z   &kp X        &kp C      &kp V             &kp B         &kp N          &kp M      &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
-                               &kp MINUS    &kp EQUAL  &mt LCTRL DELETE  &lt 1 SPACE   &kp BACKSPACE  &kp ENTER  &kp LBKT   &kp RBKT
-                               &kp PAGE_UP  &kp LALT   &mt LEFT_WIN DEL  &kp LEFT_ALT  &kp LEFT       &kp RIGHT  &kp DOWN   &kp PAGE_DOWN
+&kp ESCAPE             &kp N1  &kp N2       &kp N3         &kp N4          &kp N5               &kp N6         &kp N7     &kp N8     &kp N9         &kp N0    &kp MINUS
+&lt 2 TAB              &kp Q   &kp W        &kp E          &kp R           &kp T                &kp Y          &kp U      &kp I      &kp O          &kp P     &lt 2 BACKSLASH
+&mt LEFT_CONTROL CAPS  &kp A   &kp S        &kp D          &kp F           &kp G                &kp H          &kp J      &kp K      &kp L          &kp SEMI  &kp SQT
+&kp LSHFT              &kp Z   &kp X        &kp C          &kp V           &kp B                &kp N          &kp M      &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
+                               &kp GRAVE    &kp BACKSLASH  &lt 1 LEFT_ALT  &lt 1 SPACE          &kp BACKSPACE  &kp ENTER  &kp LBKT   &kp RBKT
+                               &kp PAGE_UP  &kp LALT       &kp LCTRL       &mt LEFT_GUI DELETE  &kp LEFT       &kp RIGHT  &kp DOWN   &kp PAGE_DOWN
             >;
         };
 
